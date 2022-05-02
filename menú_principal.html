@@ -4,49 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Menú Principal</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-device-width: 650px)">
     <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-device-width: 1000px)">
+    <script src="./js/main.js"></script>
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header>
-        <a href="./menú_principal.html">
-            <img src="./img/logo-placeholder.png" alt="Logo"  class="header_logo">
-        </a>
-        <div class="menu">
+        <div class="header_logo">
+            <a href="./menú_principal.html">
+                <img src="./img/logo-placeholder.png" alt="Logo">
+            </a>
+        </div>
+        <nav id="nav_menu">
             <ul>
                 <li><a href="./proyectos.html">Proyectos</a></li>
                 <li><a href="./miembros.html">Miembros</a></li>
                 <li><a href="./nosotros.html">Sobre Nosotros</a></li>
                 <li><a href="./mercancia.html">Mercancía</a></li>
             </ul>
+        </nav>
+        <div class="menu_toggle">
+            <i class='bx bx-menu'></i>
         </div>
     </header>
     <main>
-        <img src="./img/logo-placeholder.png" alt="Logo" class="menu_logo" width="10%">
+        <img src="./img/logo-placeholder.png" alt="Logo" class="menu_logo">
         <section class="menu_principal">
             <a href="./proyectos.html">
                 <figure>
-                    <img src="./img/image_placeholder.png" alt="Proyectos" width="10%">
+                    <img src="./img/image_placeholder.png" alt="Proyectos">
                     <figcaption>Proyectos</figcaption>
                 </figure>
             </a>
             <a href="./miembros.html">
                 <figure>
-                    <img src="./img/image_placeholder.png" alt="Miembros" width="10%">
+                    <img src="./img/image_placeholder.png" alt="Miembros">
                     <figcaption>Miembros</figcaption>
                 </figure>
             </a>
             <a href="./nosotros.html">
                 <figure>
-                    <img src="./img/image_placeholder.png" alt="Nosotros" width="10%">
+                    <img src="./img/image_placeholder.png" alt="Nosotros">
                     <figcaption>Sobre Nosotros</figcaption>
                 </figure>
             </a>
             <a href="./mercancia.html">
                 <figure>
-                    <img src="./img/image_placeholder.png" alt="Mercancía" width="10%">
+                    <img src="./img/image_placeholder.png" alt="Mercancía">
                     <figcaption>Mercancía</figcaption>
                 </figure>
             </a>

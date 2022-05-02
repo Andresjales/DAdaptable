@@ -1,3 +1,18 @@
+:root{
+    --font-size-text: 0.7em;
+    --font-size-subtitle: 1.3em;
+    --font-size-title: 2.3em;
+}
+
+html{
+    font-size: 4vw;
+}
+
+.ingreso_logo{
+    width: 16em;
+    height: 16em;
+}
+
 .ingreso{
-    height: 5em;
+    height: 10em;
 }

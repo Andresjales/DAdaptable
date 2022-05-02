@@ -3,6 +3,9 @@
 
 :root{
     --color-alpha: #4D4D4D;
+    --color-beta: #393939;
+    --color-gamma: #E5E5E5;
+    --color-delta: #B0B0B0;
 
     --font-size-text: 0.5em;
     --font-size-subtitle: 1em;
@@ -26,45 +29,101 @@ body{
     background-color: var(--color-alpha);
 }
 
-/* Vista Entrada */
+/* Barra de navegación */
 
-.main_enter{
-    height: 100vh;
-    width: 100vw;
+header{
+    height: 2em;
+    background-color: var(--color-beta);
     display: flex;
-    flex-direction: column;
     align-items: center;
+    padding: 0 0.5em;
 }
 
-.enter_logo{
-    width: 14em;
-    height: 14em;
+.menu_toggle{
+    display: flex;
+    margin-left: auto;
+    color: var(--color-gamma);
+    font-size: 1.5em;
+    cursor: pointer;
 }
 
-.ingreso{
-    width: 14em;
-    height: 10em;
+.header_logo a{
+    text-decoration: none;
+    display: flex;
+}
+
+.header_logo a img{
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.show{
+    height: 14em !important;
+    border: 0.1em solid var(--color-gamma) !important;
+}
+
+#nav_menu{
+    background-color: var(--color-delta);
+    position: absolute;
+    top: 2em;
+    right: 0;
+    width: 50vw;
+    height: 0;
+    border: 0;
+    overflow: hidden;
+    transition: 0.3s ease-out;
+}
+
+#nav_menu ul li{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.ingreso a{    
-    text-align: center;
-    font-size: var(--font-size-subtitle);
+#nav_menu ul li a{
+    color: var(--color-gamma);
     text-decoration: none;
-    color: white;
+    font-size: 0.8em;
+    border-radius: 0.3em;
+    background-color: var(--color-beta);
+    width: 10em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+}
+
+/* Vista Ingreso */
+
+.main_ingreso{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.ingreso_logo{
+    width: 14em;
+    height: 14em;
+}
+
+.ingreso{
+    width: 100vw;
+    height: 13em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-gamma);
+}
+
+.ingreso p{
+    font-size: var(--font-size-subtitle);
 }
 
 /* Vista Menú principal */
 
-.header_logo{
-    width: 100px;
-    height: 100px;
-    float: left;
-}
-
-.menu{
+/* .menu{
     float: right;
 }
 
@@ -78,3 +137,4 @@ body{
 .menu_principal{
     background-color: grey;
 }
+ */
