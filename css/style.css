@@ -70,8 +70,17 @@ header{
     width: 50vw;
     height: 0;
     border: 0;
+    border-radius: 0.3em;
     overflow: hidden;
     transition: 0.3s ease-out;
+    display: flex;
+    justify-content: center;
+}
+
+#nav_menu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 #nav_menu ul li{
@@ -123,18 +132,28 @@ header{
 
 /* Vista Menú principal */
 
-/* .menu{
-    float: right;
+.menu_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .menu_logo{
-    width: 150px;
-    height: 150px;
-    display: block;
-    margin: auto;
+    width: 5em;
+    height: 5em;
+}
+
+.menu_img{
+    width: 10em;
+    height: 10em;
 }
 
 .menu_principal{
-    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
- */
+
+.menu_principal a figure figcaption{
+    font-size: 0.5em;
+}
