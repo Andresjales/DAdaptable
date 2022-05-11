@@ -132,28 +132,40 @@ header{
 
 /* Vista Menú principal */
 
-.menu_main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .menu_logo{
-    width: 5em;
-    height: 5em;
-}
-
-.menu_img{
-    width: 10em;
-    height: 10em;
+    width: 6em;
+    height: 6em;
+    display: flex;
+    margin: 0 auto;
 }
 
 .menu_principal{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 1em;
 }
 
-.menu_principal a figure figcaption{
-    font-size: 0.5em;
+.menu_principal figure{
+    display: flex;
+    justify-content: center;
+    margin: 0.4em;
+}
+
+.menu_principal figure a{
+    background-color: var(--color-delta);
+    border-radius: 0.5em;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.menu_principal figure a img{
+    height: 6em;
+    width: 6em;
+}
+
+.menu_principal figure a figcaption{
+    background-color: var(--color-beta);
+    color: var(--color-gamma);
+    font-size: 0.6em;
+    text-align: center;
 }

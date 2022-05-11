@@ -8,6 +8,8 @@ html{
     font-size: 4vw;
 }
 
+/* Vista Ingreso */
+
 .ingreso_logo{
     width: 16em;
     height: 16em;
@@ -16,3 +18,5 @@ html{
 .ingreso{
     height: 10em;
 }
+
+/* Vista Menú principal */
