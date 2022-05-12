@@ -20,3 +20,33 @@ html{
 }
 
 /* Vista Menú principal */
+
+.menu_principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_principal figure{
+    display: flex;
+    justify-content: center;
+    margin: 0.4em;
+}
+
+.menu_principal figure a{
+    background-color: var(--color-delta);
+    border-radius: 0.5em;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.menu_principal figure a img{
+    height: 6em;
+    width: 6em;
+}
+
+.menu_principal figure a figcaption{
+    background-color: var(--color-beta);
+    color: var(--color-gamma);
+    font-size: 0.6em;
+    text-align: center;
+}
