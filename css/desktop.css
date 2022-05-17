@@ -59,3 +59,30 @@ html{
 .ingreso{
     height: 5em;
 }
+
+/* Vista Menú principal */
+
+.menu_principal{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu_principal figure{
+    width: 10em;
+    height: 80vh;
+}
+
+.menu_principal figure a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu_principal figure a img{
+    margin: auto;
+}
+
+.menu_principal figure a figcaption{
+    font-size: 0.8em;
+    line-height: 3em;
+}

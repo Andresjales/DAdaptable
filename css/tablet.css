@@ -28,10 +28,11 @@ html{
 
 .menu_principal figure{
     margin: 0;
+    width: 100vw;
 }
 
 .menu_principal figure a{
-    width: 100vw;
+    width: 100%;
     border-radius: unset;
 }
 
