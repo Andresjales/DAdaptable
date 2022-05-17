@@ -39,7 +39,7 @@ html{
 #nav_menu ul li a{
     display: inline-block;
     position: relative;
-    line-height: 2.6em;
+    line-height: 2em;
     padding: 0 0.4em;
     transition: 0.2s;
     font-size: 0.7em;
