@@ -41,10 +41,16 @@ header{
 
 .menu_toggle{
     display: flex;
-    margin-left: auto;
     color: var(--color-gamma);
     font-size: 1.5em;
     cursor: pointer;
+}
+
+.header_title{
+    color: var(--color-gamma);
+    display: flex;
+    margin: 0 auto;
+    font-size: 1.8em;
 }
 
 .header_logo a{

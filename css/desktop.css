@@ -14,9 +14,7 @@ html{
     display: none;
 }
 
-#nav_menu{
-    margin-left: auto;
-    
+#nav_menu{    
     background-color: unset;
     position: unset;
     top: unset;
