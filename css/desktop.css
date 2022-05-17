@@ -16,9 +16,8 @@ html{
 
 #nav_menu{    
     background-color: unset;
-    position: unset;
     top: unset;
-    left: unset;
+    right: 0.2em;
     width: unset;
     height: unset;
     border: unset;

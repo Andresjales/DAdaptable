@@ -27,6 +27,8 @@ html{
 
 body{
     background-color: var(--color-alpha);
+    height: 100vh;
+    width: 100vw;
 }
 
 /* Barra de navegación */
@@ -41,6 +43,8 @@ header{
 
 .menu_toggle{
     display: flex;
+    position: absolute;
+    right: 0.2em;
     color: var(--color-gamma);
     font-size: 1.5em;
     cursor: pointer;
@@ -50,7 +54,12 @@ header{
     color: var(--color-gamma);
     display: flex;
     margin: 0 auto;
-    font-size: 1.8em;
+    font-size: 1.5em;
+}
+
+.header_logo{
+    position: absolute;
+    left: 0.2em;
 }
 
 .header_logo a{
@@ -165,11 +174,47 @@ header{
 }
 
 .menu_principal figure a img{
+    display: flex;
+    margin: 0 auto;
     height: 6em;
     width: 6em;
 }
 
 .menu_principal figure a figcaption{
+    background-color: var(--color-beta);
+    color: var(--color-gamma);
+    font-size: 0.6em;
+    text-align: center;
+}
+
+/* Vista Miembros */
+
+.miembros{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.miembros figure{
+    display: flex;
+    justify-content: center;
+    margin: 0.4em;
+}
+
+.miembros figure a{
+    background-color: var(--color-delta);
+    border-radius: 0.5em;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.miembros figure a img{
+    display: flex;
+    margin: 0 auto;
+    height: 4em;
+    width: 4em;
+}
+
+.miembros figure a figcaption{
     background-color: var(--color-beta);
     color: var(--color-gamma);
     font-size: 0.6em;
