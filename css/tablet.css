@@ -27,26 +27,15 @@ html{
 }
 
 .menu_principal figure{
-    display: flex;
-    justify-content: center;
-    margin: 0.4em;
+    margin: 0;
 }
 
 .menu_principal figure a{
-    background-color: var(--color-delta);
-    border-radius: 0.5em;
-    overflow: hidden;
-    text-decoration: none;
+    width: 100vw;
+    border-radius: unset;
 }
 
 .menu_principal figure a img{
-    height: 6em;
-    width: 6em;
-}
-
-.menu_principal figure a figcaption{
-    background-color: var(--color-beta);
-    color: var(--color-gamma);
-    font-size: 0.6em;
-    text-align: center;
+    display: flex;
+    margin: 0 auto;
 }
